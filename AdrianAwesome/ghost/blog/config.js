@@ -34,7 +34,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '10.185.153.112',
+            host: 'ec2-54-167-87-250.compute-1.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         }
@@ -55,7 +55,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '54.197.247.227',
+            host: 'ec2-54-167-87-250.compute-1.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         }

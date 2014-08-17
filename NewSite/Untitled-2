@@ -1,0 +1,54 @@
+<style>
+        .hero-unit {
+            background-color: #eee;
+            z-index: 0;
+            border-radius: 20px;
+            background-repeat: no-repeat;
+            background-image: url(./public/images/night-city.jpg);
+        }
+        #myPic {
+            height: 150px;
+            border-radius: 150px;
+            width:150px;
+            top:15%;
+            right:190px;
+            margin-top:-75px;
+            position: absolute;
+            z-index: 1;
+            background-repeat: no-repeat;
+            background-image: url(./public/images/face.jpg);
+        }
+        
+        #link {
+            height: 50px;
+            border-radius: 50px;
+            width:150px;
+            top:46%;
+            right:135px;
+            margin-top:-75px;
+            position: absolute;
+            z-index: 1;
+            background-repeat: no-repeat;
+        }
+        
+        #twitter {
+            height: 50px;
+            border-radius: 50px;
+            width:150px;
+            top:57%;
+            right:135px;
+            margin-top:-75px;
+            position: absolute;
+            z-index: 1;
+            background-repeat: no-repeat;
+        }
+        
+        #descrip {
+            height:200px;
+            width:400px;
+            border-color: red;
+            margin-left:350px;
+            color: #eee;
+            font-size: 20px;
+        }
+    </style>

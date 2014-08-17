@@ -1,14 +1,16 @@
 var express = require('express');
 var fs = require('fs');
-var htmlfile = "index.html";
+//var htmlfile = "index2.html";
+var cons = require("consolidate");
 
 //var app = express.createServer(express.logger());
 var app = express();
+app.engine('html', cons.swig);
+app.set('view engine', 'html');
+app.use(express.static(__dirname, 'public'));
 
 app.get('/', function(request, response) {
-  var fs = require('fs');
-  var buf = fs.readFileSync('index.html', 'utf8');
-  response.send(buf.toString());
+  response.render('index2dee')
 });
 
 var port = process.env.PORT || 3000;
